@@ -38,7 +38,6 @@ def move_and_get_top_stacks(input_filename):
             amount, init, end = [int(s) for s in op.split() if s.isdigit()]
 
             # Pop and stack n elements
-            n = amount
             for i in range(amount): 
                 stacks_1[end].append(stacks_1[init].pop())
             
