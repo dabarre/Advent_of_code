@@ -54,7 +54,7 @@ def move_and_get_top_stacks(input_filename):
 def main():
     stack_top, append_top = move_and_get_top_stacks('day_5_data.txt')
     # Exercise 1
-    print('Top of stacks ex1: ', stack_top) # HBTMTBSDC
+    print('Top of stacks ex1: ', stack_top)
     # Exercise 2
     print('Top of stacks ex2: ', append_top)
 
